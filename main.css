@@ -105,7 +105,8 @@ h1:hover span:nth-child(3){
   left: 0 !important;
 }
 .menu__btn {
-  position: fixed;
+  z-index: auto;
+  position: absolute;
   top: 20px;
   left: 20px;
   width: 26px;
@@ -116,6 +117,7 @@ h1:hover span:nth-child(3){
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
+  z-index: auto;
   display: block;
   position: absolute;
   width: 100%;
@@ -134,7 +136,7 @@ h1:hover span:nth-child(3){
 }
 .menu__box {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -100%;
   width: 300px;
@@ -862,7 +864,7 @@ h1:hover span:nth-child(3){
   left: 0 !important;
 }
 .menu__btn {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
   width: 26px;
@@ -891,7 +893,7 @@ h1:hover span:nth-child(3){
 }
 .menu__box {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -100%;
   width: 300px;
